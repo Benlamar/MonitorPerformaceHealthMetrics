@@ -1,0 +1,35 @@
+nav{
+    min-height: 1rem;
+    padding: 8px 0;
+    background-color: rgb(240, 240, 240);
+}
+
+/* nav::after{
+    content: "";
+    background-color: rgb(124, 124, 124);
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 1px;
+} */
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item{
+    cursor: pointer;
+    padding: 0 8px;
+    border-radius: 8px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu-item:hover{
+    background-color: rgb(25, 25, 112);
+    color: white;
+}

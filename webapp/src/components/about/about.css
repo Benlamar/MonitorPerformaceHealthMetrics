@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.about p{
+    margin-top: 2rem;
+}

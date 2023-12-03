@@ -1,13 +1,13 @@
 # MonitorPerformaceHealthMetrics
-This application uses React Js for the web application, Express JS and MongoDB for the backend and a Python client that
-simulate the as a device to monitor health data. This conntion is done in real time using Socket.io
+This application uses React JS for the web application, Express JS and MongoDB for the backend and a Python client that
+simulates as a device to monitor health data. This connection is done in real-time using Socket.io
 
 ## Getting Started
 Follow these steps to get the application up and running on your local machine.
 
 ### Prerequisites
 Make sure you have Node.js, Python3, MongoDB and npm installed on your machine.
-Change the mongodb url if require in the .env file. I using localhost.
+Change the MongoDB URL if required in the .env file. I using localhost.
 
 ### Installation and Running the application
 1. Clone the repository:
